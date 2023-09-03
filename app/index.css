@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.control_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.control_box > div {
+  width: 50%;
+}
+
+.control_box > div .button_box {
+  display: flex;
+  gap: 1rem;
+}
+
+.control_box > div .button_box .origin_btn {
+  color: #fff;
+  background-color: #222;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.control_box > div .button_box .origin_btn:hover {
+  background-color: #555;
+}
+
+.control_box > div .button_box .destination_btn {
+  color: #fff;
+  background-color: #ff9c11;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.control_box > div .button_box .destination_btn:hover {
+  background-color: #ffc068;
+}
