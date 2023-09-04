@@ -16,13 +16,18 @@ body {
   display: flex;
   gap: 1rem;
 }
-
-.control_box > div .button_box .origin_btn {
+.control_box > div .button_box .origin_btn,
+.control_box > div .button_box .destination_btn {
   color: #fff;
-  background-color: #222;
   padding: 1rem 2rem;
   border-radius: 1rem;
   cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.control_box > div .button_box .origin_btn {
+  background-color: #222;
 }
 
 .control_box > div .button_box .origin_btn:hover {
@@ -30,11 +35,7 @@ body {
 }
 
 .control_box > div .button_box .destination_btn {
-  color: #fff;
   background-color: #ff9c11;
-  padding: 1rem 2rem;
-  border-radius: 1rem;
-  cursor: pointer;
 }
 
 .control_box > div .button_box .destination_btn:hover {
